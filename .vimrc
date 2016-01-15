@@ -37,9 +37,12 @@ let GtagsCscope_Keep_Alive = 1
 let GtagsCscope_Auto_Load = 1
 let GtagsCscope_Auto_Update = 1
 let GtagsCscope_Quiet = 1
-
 set cscopetag
 
+" view manpage in vim refer to :h find-manpage
+runtime! ftplugin/man.vim 
+
+" install vim-plug before intall following plugins
 call plug#begin()
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
