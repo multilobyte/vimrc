@@ -42,6 +42,10 @@ set cscopetag
 " view manpage in vim refer to :h find-manpage
 runtime! ftplugin/man.vim 
 
+" setting of pyclewn
+let g:pyclewn_python = "/usr/bin/python3"
+let g:pyclewn_args = "-w right"
+
 " install vim-plug before intall following plugins
 call plug#begin()
 Plug 'scrooloose/nerdtree'
