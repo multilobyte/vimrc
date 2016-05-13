@@ -21,9 +21,10 @@ set nowrap
 set nobackup
 set noswapfile
 
-"set tw=80 and column after tw are highlighted
-set tw=80
-set cc=+1
+"set textwidth and column after tw are highlighted no auto wrap
+"set tw=80
+"set cc=+1
+set colorcolumn=81
 
 "set pwd to current file dir
 "autocmd BufEnter * if expand("%:p:h") !~ '^/tmp' | silent! lcd %:p:h | endif
@@ -52,7 +53,6 @@ Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/syntastic'
-Plug 'lyuts/vim-rtags'
 Plug 'multilobyte/gtags-cscope'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'Valloric/YouCompleteMe'
