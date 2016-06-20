@@ -58,4 +58,5 @@ Plug 'jlanzarotta/bufexplorer'
 Plug 'Valloric/YouCompleteMe'
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 Plug 'bling/vim-airline'
+Plug 'tpope/vim-fugitive'
 call plug#end()
