@@ -47,6 +47,9 @@ runtime! ftplugin/man.vim
 let g:pyclewn_python = "/usr/bin/python3"
 let g:pyclewn_args = "-w right"
 
+" ignore files in nerdtree
+let NERDTreeIgnore = ['\.o$']
+
 " install vim-plug before intall following plugins
 call plug#begin()
 Plug 'scrooloose/nerdtree'
@@ -59,4 +62,5 @@ Plug 'Valloric/YouCompleteMe'
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 Plug 'bling/vim-airline'
 Plug 'tpope/vim-fugitive'
+Plug 'rhysd/vim-clang-format'
 call plug#end()
